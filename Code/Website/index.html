@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+	<title>newSearch</title>	
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+	<style type="text/css">
+		input[type=text]{
+			width: 500px;
+			box-sizing: border-box;
+			border: 0.5px solid #000;
+			border-radius: 2px;
+			font-size: 12px;
+			background-color: white;
+			padding: 9px 10px 9px 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="container containerMargin">
+
+		<form id="form-container" class="form-container">
+			<input type="text" id='Context' name="context" placeholder="Give Context" >	
+			<input type="text" id='Search' name="Actual Search" placeholder="Search..">
+			<button id = 'submitButton' type="button">Submit</button>
+		</form>
+		
+		<hr>
+		
+		<div class="row">
+			<div class="col-md-8">
+				<ul id="search_results">Search Results</ul>
+			</div>
+			<div class="col-md-4">
+				<p>This has a visualization of the search results</p>
+			</div>
+		</div>
+		
+	<script src="js2/libs/jquery.min.js"></script>
+	<script type="text/javascript" src="js2/script2.js"></script>
+
+	</div>
+</body>
+</html>
